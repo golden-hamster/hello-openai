@@ -14,3 +14,10 @@ spring:
         show_sql: true
     hibernate:
       ddl-auto: create
+
+reddit:
+  client:
+    id: ${REDDIT_ID}
+    secret: ${REDDIT_SECRET}
+  username: ${REDDIT_USERNAME}
+  password: ${REDDIT_PASSWORD}
